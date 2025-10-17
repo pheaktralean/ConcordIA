@@ -46,8 +46,12 @@ but it doesn’t tell you how many clients come in daily or weekly, so it cannot
 ***
 
 # Ontario Disability Support Program – monthly caseload time series
+The dataset:
+[link](https://ouvert.canada.ca/data/dataset/8b2d095e-1099-44aa-a51c-85d5f74ec1de/resource/d7bbf5e9-983b-41f1-b363-75a84ff76b9a)
 
 # Ontario Works – monthly caseload time series
+The dataset:
+[link](https://ouvert.canada.ca/data/dataset/8b2d095e-1099-44aa-a51c-85d5f74ec1de/resource/f0297116-6813-4253-ac20-99d1ce7134be)
 
 To prepare the dataset (cleaning), the tasks are:
 - Convert Month column to a real date: so models like ARIMA/Prophet can read it as a time index.
