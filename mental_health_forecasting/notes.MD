@@ -47,11 +47,13 @@ but it doesn’t tell you how many clients come in daily or weekly, so it cannot
 
 # Ontario Disability Support Program – monthly caseload time series
 
-
-***
-
-
 # Ontario Works – monthly caseload time series
 
-
+To prepare the dataset (cleaning), the tasks are:
+- Convert Month column to a real date: so models like ARIMA/Prophet can read it as a time index.
+- Sort by date: ensures correct chronological order.
+- Check for missing or duplicate months: missing months break forecasting models.
+- Rename columns to simpler names: easier to use and remember.
+- Drop unnecessary columns: if we only need total cases/beneficiaries.
+- Set date as index: so we can run .plot() and model time series easily.
 
