@@ -1,0 +1,8 @@
+﻿file,detected_date_col,detected_value_col,detected_id_col,used_id_for_dates,date_parse_quality,binning_note,rows_raw,rows_with_dates,missing_value_pct,date_min,date_max
+Daily shelter occupancy 2017.csv,OCCUPANCY_DATE,OCCUPANCY,_id,True,0.0,evenly binned rows into days by _id order,38700,365,0.0,2017-01-01,2017-12-31
+Daily shelter occupancy 2018.csv,OCCUPANCY_DATE,OCCUPANCY,_id,True,0.0,evenly binned rows into days by _id order,37770,365,0.0,2018-01-01,2018-12-31
+Daily shelter occupancy 2019.csv,OCCUPANCY_DATE,OCCUPANCY,_id,True,0.0,evenly binned rows into days by _id order,39446,365,0.0,2019-01-01,2019-12-31
+Daily shelter occupancy 2020.csv,OCCUPANCY_DATE,OCCUPANCY,_id,False,1.0,,41061,366,0.0,2020-01-01,2020-12-31
+Daily shelter overnight occupancy 2024 (2025).csv,OCCUPANCY_DATE,SERVICE_USER_COUNT,_id,False,1.0,,39851,281,0.0,2025-01-01,2025-10-08
+daily-shelter-overnight-service-occupancy-capacity-2021.csv,OCCUPANCY_DATE,SERVICE_USER_COUNT,_id,False,1.0,,50944,365,0.0,2021-01-01,2021-12-31
+daily-shelter-overnight-service-occupancy-capacity-2023.csv,OCCUPANCY_DATE,SERVICE_USER_COUNT,_id,True,0.0,evenly binned rows into days by _id order,48345,365,0.0,2023-01-01,2023-12-31
