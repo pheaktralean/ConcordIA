@@ -3,6 +3,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 df_intake = pd.read_csv('./data/Nutritional_Programming_West.csv')
 demographic_df = pd.read_csv('./data/Food_insecurity_selected_demographic_characteristics.csv')
@@ -232,3 +234,28 @@ test  = df_all[df_all['Year'] >  2019]
 feature_cols = ['Year', 'Intake_lag1']
 X_train, y_train = train[feature_cols], train['Intake']
 X_test, y_test   = test[feature_cols], test['Intake']
+
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled  = scaler.transform(X_test)
+
+model = LinearRegression()
+model.fit(X_train_scaled, y_train)
+
+y_pred = model.predict(X_test_scaled)
+
+mae = mean_absolute_error(y_test, y_pred)
+rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+
+print(f'MAE: {mae:.2f}')
+print(f'RMSE: {rmse:.2f}')
+
+plt.figure(figsize=(8,4))
+plt.plot(test['Year'], y_test, label='Actual', marker='o')
+plt.plot(test['Year'], y_pred, label='Predicted', marker='x')
+plt.title('Actual vs Predicted Nutritional Program Intake')
+plt.xlabel('Year')
+plt.ylabel('Intake')
+plt.legend()
+plt.grid(True)
+plt.show()
