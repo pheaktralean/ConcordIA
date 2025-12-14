@@ -95,3 +95,5 @@ Results are generated per-module within Jupyter Notebooks. Key findings can be f
 2. **feature_branch:** Create a new branch for each new forecasting module or major experiment.
 3. **Update Guidelines:** If methodology changes, update `economy_n_text_indices_forcasting/feedback_and_guidelines.md`.
 
+## Acknowledgement
+Team ConcordIA is very pleased and honoured to participate in RBC Borealis Let's Solve it Fall 2025. Thank you Antonio for helping us and guiding us through this project. Thank you WoodGreen organization for providing us your project proposal and data. 
