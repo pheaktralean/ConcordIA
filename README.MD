@@ -8,7 +8,7 @@ Anticipating program-level demand supports proactive staffing, inventory plannin
 
 ## Project Overview
 
-This project focuses on forecasting demand for various social service programs at **WoodGreen Community Services**. By integrating internal program intake data with external **macro-economic indicators** and **text search indices** (e.g., Google Trends), the goal is to build predictive models that help anticipate service needs across different domains such as Mental Health, Shelter, Employment, and Food Security.
+This project focuses on forecasting demand for various social service programs at **WoodGreen Community Services**. By integrating internal program intake data with exogenous data from different domains (e.g Macroeconomics, Search Indexes, Mental Health, Food Insecurity, Employment, etc.), the goal is to build predictive models that help anticipate service needs across WoodGreen service demand (housing, food, employment) and support proactive resource planning.
 
 The project leverages advanced time-series forecasting techniques, including **Lag-Llama** (a foundation model for time series) and **LSTM** networks, alongside traditional regression baselines.
 
