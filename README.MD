@@ -89,11 +89,5 @@ Results are generated per-module within Jupyter Notebooks. Key findings can be f
 - **Employment Trends:** See `employment_forecast/jupyter_notebooks/Employment_Forecasting_LSTM.ipynb`.
 - **Data Validation:** `shelter_forecasting/clean_shelter_data_csvs.py` generates validation reports and charts in `shelter_forecasting/data/curated/`.
 
-## Contributing
-
-1. **Clean Code:** When converting notebooks to scripts, ensure code is modular and follows the pattern in `clean_shelter_data_csvs.py`.
-2. **feature_branch:** Create a new branch for each new forecasting module or major experiment.
-3. **Update Guidelines:** If methodology changes, update `economy_n_text_indices_forcasting/feedback_and_guidelines.md`.
-
 ## Acknowledgement
 Team ConcordIA is very pleased and honoured to participate in RBC Borealis Let's Solve it Fall 2025. Thank you Antonio for helping us and guiding us through this project. Thank you WoodGreen organization for providing us your project proposal and data. 
