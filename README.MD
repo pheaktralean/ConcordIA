@@ -89,12 +89,6 @@ Results are generated per-module within Jupyter Notebooks. Key findings can be f
 - **Employment Trends:** See `employment_forecast/jupyter_notebooks/Employment_Forecasting_LSTM.ipynb`.
 - **Data Validation:** `shelter_forecasting/clean_shelter_data_csvs.py` generates validation reports and charts in `shelter_forecasting/data/curated/`.
 
-## Troubleshooting
-
-- **Missing Data Errors:** Ensure local data files are present. This repo structure assumes data is locally available as it is not committed to the repo for privacy.
-- **Path Issues:** Scripts often use relative paths (`Path(__file__).parents[...]`). Run scripts from their specific directories or adjust the `ROOT` variable if running from the project root.
-- **Dependency Conflicts:** Install specific versions from `requirements.txt` to avoid breaking changes in libraries like `pandas` or `torch`.
-
 ## Contributing
 
 1. **Clean Code:** When converting notebooks to scripts, ensure code is modular and follows the pattern in `clean_shelter_data_csvs.py`.
