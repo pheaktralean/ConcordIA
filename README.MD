@@ -90,4 +90,4 @@ Results are generated per-module within Jupyter Notebooks. Key findings can be f
 - **Data Validation:** `shelter_forecasting/clean_shelter_data_csvs.py` generates validation reports and charts in `shelter_forecasting/data/curated/`.
 
 ## Acknowledgement
-Team ConcordIA is very pleased and honoured to participate in RBC Borealis Let's Solve it Fall 2025. Thank you Antonio for helping us and guiding us through this project. Thank you WoodGreen organization for providing us your project proposal and data. 
+Team ConcordIA is very pleased and honoured to participate in RBC Borealis Let's Solve it Fall 2025. Thank you Antonio for helping us and guiding us through this project. Thank you WoodGreen organization for providing us your project proposal and data. Thank you everyone at Team ConcordIA for your hard work and dedication.
