@@ -1,4 +1,4 @@
-# RBC & WoodGreen Community Services Forecasting Project
+# Let's Solve it (Fall 2025) with RBC Borealis & WoodGreen Community Services
 
 ## Project Statement
 
